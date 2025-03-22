@@ -1,0 +1,16 @@
+[package]
+name = "fdcpm-wgpu"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytemuck = { version = "1.14.0", features = ["derive"] }
+rand = "0.9.0"
+tokio = { version = "1.44.1", features = ["rt-multi-thread", "macros"] }
+env_logger = "0.11.7"
+wgpu = "24.0.3"
+wgpu-core = "24.0.2"
+winit = "0.30.9"
+pollster = "0.3.0"
+futures = "0.3.30"
+image = "0.24.7"
